@@ -12,8 +12,8 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <nav class="navbar navbar-expand-md navbar-light navbar-fixed" style="padding: 0 10%;"  >
-        <a class="navbar-brand font-weight-bold " style="font-size: 2rem; color: #28b5b5;" href="#">VTie-In</a>
+    <nav class="navbar navbar-expand-md navbar-light navbar-fixed pt-4 " style="padding: 0 10%;"  >
+        <a class="navbar-brand font-weight-bold " style="font-size: 2rem; color: #28b5b5;" href="#"><img src="./images/logo1.jpeg" class="img-responsive" width="150px" alt=""></a>
         <button style="width: 60px;" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -34,47 +34,98 @@
             </ul>
         </div>  
     </nav> 
+    <section>
+         <div class="container-fluid  pt-5 " style="padding: 0 10%;">
+            <!--<div class="row">
+                <div class="col-12 col-lg-3 pt-5">
+                    <h1>Join us....</h1>
+                    <h4>Enjoy one stop platform for all your medical needs</h4>
+                </div>
+                <div class="col-12 col-lg-9 m-auto">
+                    <img class="img-responsive" src="./images/try2.jpg" width="100%" >
+                </div>
+            </div>
+        </div> -->
+        <div id="demo" class="carousel slide" data-ride="carousel">
+
+            <!-- Indicators -->
+            <ul class="carousel-indicators">
+              <li data-target="#demo" data-slide-to="0" class="active"></li>
+              <li data-target="#demo" data-slide-to="1"></li>
+              <li data-target="#demo" data-slide-to="2"></li>
+              <li data-target="#demo" data-slide-to="3"></li>
+
+            </ul>
+            
+            <!-- The slideshow -->
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./images/hospital.jpg" class="img-responsive" alt="Los Angeles" width="100%">
+              </div>
+              <div class="carousel-item">
+                <img src="./images/doctors.jpg" class="img-responsive" alt="Chicago" width="100%">
+              </div>
+              <div class="carousel-item">
+                <img src="./images/neet.jpg" class="img-responsive" alt="New York" width="100%">
+              </div>
+              <div class="carousel-item">
+                <img src="./images/consultation.jpg" class="img-responsive" alt="New York" width="100%">
+              </div>
+            </div>
+            
+            <!-- Left and right controls -->
+            <a class="carousel-control-prev" href="#demo" data-slide="prev" style="color: aqua;">
+              <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#demo" data-slide="next">
+              <span class="carousel-control-next-icon"></span>
+            </a>
+          </div>
+         </div>
+    </section>
     <footer>
-        <div class="container-fluid bg-light pt-3;" style="padding: 0 10%;">
+        <div class="container-fluid bg-light mt-5 pt-5 pb-5 mb-5;" style="padding: 0 10%;">
             <div class="row ">
                 <div class="col-12 col-md-6 col-lg-3 pt-5">
-                    <h5>VTie -In</h5>
+                    <h1 style="color: rgb(35, 110, 67);">VTie -In</h1 >
                     <p>Health in your hands</p>
                 </div>
-                <div class="col-12 col-md-6 col-lg-3 pt-5" id="quick">
-                    <h5>Quick links</h5>
-                    <ul>
-                        <li>Home</li>
-                        <li>About us</li>
-                        <li>Contact us</li>
-                        <li>Login</li>
-                    </ul>
+                <div class="col-12 col-md-6 col-lg-3 pt-5 " id="quick">
+                    <h4 >Quick links</h4 >
+                    <a href="index.html"><p id="s-link">Home</p></a>
+                    <a href="#"><p id="s-link">About us</p></a>
+                    <a href="#"><p id="s-link">Contact us</p></a>
+                    <a href="#"><p id="s-link">Login</p></a>
                 </div>
-                <div class="col-12 col-md-6 col-lg-3 pt-5" id="services">
-                    <h5>Our services</h5>
-                    <ul>
-                        <li><a href="#" class="services-link">Doctor Consultancy</a></li>
-                        <li><a href="#" class="services-link">Find job</a></li>
-                        <li><a href="#" class="services-link">Career support</a></li>
-                        <li><a href="#" class="services-link">Learning</a></li>
-                    </ul>
+                <div class="col-12 col-md-6 col-lg-3 pt-5 " id="services">
+                    <h4 >Our services</h4 >
+                    
+                    <a href="#" class="services-link"><p id="s-link" >Doctor Consultancy</p></a>
+                    <a href="#" class="services-link"><p id="s-link">Find job</p></a>
+                    <a href="#" class="services-link"><p id="s-link">Career support</p></a>
+                    <a href="#" class="services-link"><p id="s-link">Learning</p></a>
+                   
                 </div>
-                <div class="col-12 col-md-6 col-lg-3 pt-5">
-                    <h5>Find us on</h5>
+                <div class="col-12 col-md-6 col-lg-3 pt-5 ">
+                    <h4 >Find us on</h4 >
                     <ul class="social mb-0 list-inline mt-3">
                         <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-facebook-f"></i></a></li>
                         <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-twitter"></i></a></li>
                         <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-instagram"></i></a></li>
                     </ul>
                 </div>
-                <div class="col-12">
+                <!-- <div class="col-12">
                     <div class="copy-right pt-4 pb-2">
                         <p class="text-center">© 2021 All Rights Reserved by <b>VTie-In</b></p>
                     </div>
-                </div>
+                </div> -->
+            </div>
+        </div>
+        <div class="container-fluid " style="padding: 0 10%; background-color: #E1E5EA">
+            <div class="copy-right  pt-2 pb-1" >
+                <p class="text-center">© 2021 All Rights Reserved by <b>VTie-In</b></p>
             </div>
         </div>
     </footer>
-    
 </body>
 </html>

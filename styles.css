@@ -1,17 +1,10 @@
 .nav-item{
     font-size: 1.5rem;
 }
-/* .services-link{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-} */
-ul, ol{
-    list-style: none;
+a{
     text-decoration: none;
     color: black;
 }
-
 .social-link {
     width: 30px;
     height: 30px;
@@ -33,4 +26,17 @@ ul, ol{
 }
 footer{
     font-size: 1.1rem;
+}
+h4{
+    color: rgb(35, 110, 67);
+}
+p{
+    font-size: large;
+}
+a:hover{
+    text-decoration: none;
+}
+#s-link:hover{
+    font-size: 1.2rem;
+    transition: all 0.3s ease;
 }
