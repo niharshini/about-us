@@ -34,9 +34,9 @@ footer{
 h4{
     color: rgb(35, 110, 67);
 }
-p{
+/* p{
     font-size: large;
-}
+} */
 a:hover{
     text-decoration: none;
 }
@@ -44,3 +44,4 @@ a:hover{
     font-size: 1.2rem;
     transition: all 0.3s ease;
 }
+
