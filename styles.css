@@ -1,9 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,300;1,300;1,400&display=swap');
-body{
-    font-family: 'Source Sans Pro', sans-serif;
-}
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+
 .nav-item{
     font-size: 1.5rem;
+}
+.nav-link{
+    font-weight: bolder;
 }
 a{
     text-decoration: none;
@@ -34,11 +36,6 @@ footer{
 h4{
     color: rgb(35, 110, 67);
 }
-/* p{
-    font-size: large;
-} */
 a:hover{
     text-decoration: none;
 }
-
-
